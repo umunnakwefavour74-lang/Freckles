@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+    padding: 0;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar{
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    height: 10.5vh;
+    padding: 10px 20px;
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.fave{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #c2caec;
+}
+.favy{
+    position: absolute;
+    background-image: url(img/fav.jpg);
+    background-size: cover;
+    background-position: top center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+   
+}
+.oral{
+    z-index: 999;
+    font-size: 16vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+     margin-bottom: 10px;
+
+}
+.test{
+    font-size: 4vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.dark{
+    position: absolute;
+    opacity: 0.5;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.boo{
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: grey;
+}
+.favy h1, .favy p, .favy button{
+    position:relative;
+    color: white;
+    z-index: 999;
+}
+.boo:hover{
+    color: black;
+    background-color: white;
+}
+section{
+    height: 100vh;
+    margin: 0px;
+    background-color: rgb(65, 65, 168);
+}
+h1{
+    margin: 0;
+}
+.services{
+    padding: 50px 30px;
+}
+.para{
+    width: 50%;
+    align-content: center;
+}
+.section2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.heading1{
+    color: white;
+    font-size: 3.1rem;
+}
